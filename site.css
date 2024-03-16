@@ -1,0 +1,77 @@
+:root  {
+    --app-bg-color: black
+} 
+/*<:root selector sets the color for the HTML>*/
+
+ body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--app-bg-color);
+    color: white;
+ }
+ /*<The line above is for the font, background color andfor the text and body>*/
+
+
+
+ header {
+    height: auto;
+    background-color: var(--app-bg-color);
+ }
+/*<The above line uses a vaiable for color that is located in the body site.css>*/
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant-caps: all-petite-caps;
+    }
+   /*<The above line changes the font family and puts Moives and TV favorites in all caps. >*/ 
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+ol.list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style:upper-roman
+}
+
+#smaller-picture {
+    height: 300px;
+}
+/*<The above uses a id to adjust the size of the picture to fit better on the page.>*/
+
+p {
+    font-family:fantasy;
+    font-size: larger;
+}
+/*<The above is to adjust the type of font and the size for all of the paragraphs>*/
+
+body > div {
+      display:flex;
+      flex-direction:column   
+}
+/*(<I tried to adjuts the image in the power.html file didn't really see a diffeence>*/
+
+a {
+    color: cyan;
+}
+/*<changed the color to the limks which are page numbers>*/
+
+
+
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
